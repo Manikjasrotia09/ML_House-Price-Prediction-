@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('./house4_generated.jpg');
+    background-size: cover;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 50px;
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+    gap: 20px; /* Adding gap for spacing between child elements */
+    display: flex;
+    flex-direction: column; /* Ensures spacing applies in a vertical direction */
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #7DD3FC;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Gap between form elements */
+}
+
+form label {
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form select,
+form input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+button {
+    background-color: #082F49;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #0C4A6E;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #2a9d8f;
+}
+
